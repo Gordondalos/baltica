@@ -26,8 +26,8 @@
 		padding: 0
 		margin: 0 0 0 -110px
 		text-align: center
-
 		li
+
 			box-shadow: 2px 2px 1px $base-color
 			list-style-type: none
 			display: inline-block
@@ -44,12 +44,16 @@
 			background: -ms-linear-gradient(top,  #1d2553 0%,#b5b6c5 4%,#040537 45%,#32345c 100%)
 			background: linear-gradient(to bottom,  #1d2553 0%,#b5b6c5 4%,#040537 45%,#32345c 100%)
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d2553', endColorstr='#32345c',GradientType=0 )
+			transition: all .5s ease
+			&:hover
+				background: $orange !important
+
 			a
 				color: white
 				font-size: 12px
 				display: block
 				margin-top: -5px
-				padding: 6px 6px 8px
+				padding: 10px 6px 11px
 
 .line
 	width: 84%

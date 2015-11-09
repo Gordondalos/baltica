@@ -51,3 +51,15 @@ $(window).load(function() {
 	$(".loader").delay(400).fadeOut("slow");
 
 });
+
+
+
+$(document).ready(function() {
+
+	$('.fa-bars').click(function () {
+
+		$('.hidden-menu').slideToggle(1000);
+
+	});
+
+});
