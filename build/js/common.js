@@ -1,4 +1,21 @@
 $(document).ready(function() {
+// попап диалог
+	$( "#dialog" ).dialog({
+		autoOpen: false,
+		show: {
+			effect: "blind",
+			duration: 1000
+		},
+		hide: {
+			effect: "explode",
+			duration: 1000
+		}
+	});
+
+	$( "#opener" ).click(function() {
+		$( "#dialog" ).dialog( "open" );
+	});
+	// попап диалог
 
 	//Цели для Яндекс.Метрики и Google Analytics
 	$(".count_element").on("click", (function() {
@@ -24,7 +41,7 @@ $(document).ready(function() {
 		}).done(function() {
 			alert("Спасибо за заявку!");
 			setTimeout(function() {
-				
+
 				$("#form").trigger("reset");
 			}, 1000);
 		});
@@ -42,7 +59,7 @@ $(document).ready(function() {
 	};
 
 	$("img, a").on("dragstart", function(event) { event.preventDefault(); });
-	
+
 });
 
 $(window).load(function() {
@@ -52,11 +69,13 @@ $(window).load(function() {
 
 });
 
+
+
 $(document).ready(function() {
 
 	$('.fa-bars').click(function () {
 
-		$('.hidden-menu').slideToggle(700);
+		$('.hidden-menu').slideToggle(1000);
 
 	});
 

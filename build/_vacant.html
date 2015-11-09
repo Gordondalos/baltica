@@ -26,8 +26,12 @@
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
     <link href="css/zoom.css" rel="stylesheet">
     <link href="css/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="css/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="css/jquery-ui.css" rel="stylesheet">
+
 
     <link rel="stylesheet" href="css/main.css">
+    <link href="feedback-form/css/style.css" rel="stylesheet">
 
 
 </head>
@@ -138,8 +142,33 @@
                 </div>
     
                 <div class="btn-wrap col-lg-3 col-md-12 ">
-                    <div class="mybutton ">Сделать заказ</div>
+    
+                    <button id="opener" class="mybutton">Задать вопрос</button>
                 </div>
+    
+    
+                <div id="dialog" title="Задать вопрос">
+                    <form id="order" action="mail.php" method="post">
+    
+                        <label for="name">Имя</label>
+    
+                        <input type="text" name="name" id="name" minlength="3" required>
+    
+                        <label for="email">E-mail</label>
+    
+                        <input type="text" name="email" id="email" required>
+    
+                        <label for="phone">Телефон</label>
+    
+                        <input type="text" name="phone" id="phone" required>
+                        <br> <br>
+                        <textarea name="question" id="" cols="30" rows="5"></textarea>
+    
+                        <input type="submit" value="Отправить" class="mybutton">
+    
+                    </form>
+                </div>
+    
     
             </div>
         </div>
@@ -372,7 +401,35 @@
         </div>
     </footer>
 </section>
+<section class="section_10">
+    <div class="container">
+        <div class="row">
+            <div id="popupform">
+                <div class="feedback_text">
+                    <h2>У Вас есть вопросы?</h2>
 
+                    <div class="comment">Укажите Ваш номер телефона и мы перезвоним Вам в самое ближайшее время.</div>
+                </div>
+                <form method="post" id="form-feedback">
+                    <input type="text" placeholder="Ваше имя?" name="client_name" id="client_name" class="input_text"
+                           autofocus/>
+
+                    <div class="phone_number">
+                        <input type="text" placeholder="Ваш телефон?" name="client_phone" id="client_phone"
+                               class="input_text"/>
+                    </div>
+                    <input class="button" type="submit" value="Жду звонка"/><br/>
+
+                    <div id="bthrow_error_name"></div>
+                    <div id="bthrow_error_phone"></div>
+                    <div class="throw_error"></div>
+                </form>
+            </div>
+            <a href="#popupform" id="popupbutton"><img title="Телефон" id="phoneimg" src="feedback-form/img/phone-logo.png"/></a>
+        </div>
+    </div>
+
+</section>
 
 <div class="hidden"></div>
 
@@ -392,10 +449,19 @@
 <script src="libs/modernizr/modernizr.js"></script>
 <script src="libs/jquery/jquery-1.11.2.min.js"></script>
 <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="feedback-form/js/jquery.mask.min.js"></script>
+<script type="text/javascript" src="feedback-form/js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="feedback-form/js/script.js"></script>
 <script src="js/zoom.js"></script>
 <script src="libs/waypoints/waypoints.min.js"></script>
 <script src="libs/animate/animate-css.js"></script>
 <script src="libs/plugins-scroll/plugins-scroll.js"></script>
+
+
+<script src="js/jquery-ui.js"></script>
+
+
+
 
 <script src="js/common.js"></script>
 
