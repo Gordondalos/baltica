@@ -48,7 +48,7 @@
 			text-transform: uppercase
 			border-radius: 2px
 			text-align: center
-
+			transition: all 1s ease
 
 			//&:nth-child(even)
 			margin: 0 1px
@@ -61,8 +61,10 @@
 			background: -ms-linear-gradient(top,  #277bc4 12%,#163391 54%,#152e68 100%)
 			background: linear-gradient(to bottom,  #277bc4 12%,#163391 54%,#152e68 100%)
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#163391', endColorstr='#152e68',GradientType=0 )
-			transition: all 1s ease
+
 			&:hover
+				//background: #ff6600
+
 				background: #ff6600
 				background: -moz-linear-gradient(top,  #ff6600 0%, #ff6600 19%, #d14f32 45%, #c72200 100%)
 				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff6600), color-stop(19%,#ff6600), color-stop(45%,#d14f32), color-stop(100%,#c72200))
