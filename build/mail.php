@@ -52,7 +52,7 @@ if(mail($to, $subject, $message, $headers)) {
 </div>
 
 <?php
-header("Refresh: 3;  url=index.php");
+header("Refresh: 3;  url=/");
 ?>
 
 </body>
