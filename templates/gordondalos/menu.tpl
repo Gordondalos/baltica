@@ -19,11 +19,11 @@
 			<div class="row">
 				<div class="col-lg-7 col-lg-offset-1 ul-wrap">
 					<ul>
-						<li><a href='{THEME}/'>О Компании </a></li>
-						<li><a href='{THEME}/katalog.html'>Каталог продукции </a></li>
-						<li><a href='{THEME}/info.html'>Полезная информация</a></li>
-						<li><a href='{THEME}/_vacant.html'>Вакансии</a></li>
-						<li><a href='{THEME}/contact.html'>Контакты</a></li>
+						<li><a href='o-kompanii.html'>О Компании </a></li>
+						<li><a href='katalog-produkcii.html'>Каталог продукции </a></li>
+						<li><a href='/'>Полезная информация</a></li>
+						<li><a href='vakansii.html'>Вакансии</a></li>
+						<li><a href='kontakty.html'>Контакты</a></li>
 					</ul>
 					<div class="line"></div>
 				</div>
@@ -38,3 +38,4 @@
 
 	</div>
 </section>
+

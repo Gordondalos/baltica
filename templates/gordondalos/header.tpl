@@ -60,7 +60,7 @@
 	</div>
 	<div class="hidden-menu">
 		<ul>
-			<li><a href='/'>О Компании </a></li>
+			<li><a href='/o-kompanii.html'>О Компании </a></li>
 			<li><a href='{THEME}/katalog.html'>Каталог продукции </a></li>
 			<li><a href='{THEME}/info.html'>Полезная информация</a></li>
 			<li><a href='{THEME}/_vacant.html'>Вакансии</a></li>
@@ -69,5 +69,5 @@
 	</div>
 </section>
 
-{include file="topmenu.tpl"}
+{include file="menu.tpl"}
 
