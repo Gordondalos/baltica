@@ -1,3 +1,13 @@
+[full-link]<h2>{title}</h2>
+{short-story}
+[/full-link]
+
+
+
+<!--
+
+<span class="argmore">[full-link]<b>Подробнее</b>[/full-link]</span>
+
 <div class="base shortstory">
 	<div class="dpad">
 		<h3 class="btl">[full-link]{title}[/full-link]</h3>
@@ -42,3 +52,4 @@
 		<p class="lcol argcat">Категория: {link-category}</p>
 	</div>
 </div>
+-->

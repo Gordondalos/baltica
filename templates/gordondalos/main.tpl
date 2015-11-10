@@ -1,118 +1,171 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="ru"> <!--<![endif]-->
+
 <head>
-{headers}
-<link rel="shortcut icon" href="{THEME}/images/favicon.ico" />
-<link media="screen" href="{THEME}/style/styles.css" type="text/css" rel="stylesheet" />
-<link media="screen" href="{THEME}/style/engine.css" type="text/css" rel="stylesheet" />
-<script type="text/javascript" src="{THEME}/js/libs.js"></script>
+
+	{headers}
+
+	<link rel="shortcut icon" href="{THEME}/img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="{THEME}/img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="{THEME}/img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="{THEME}/img/favicon/apple-touch-icon-114x114.png">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="{THEME}/libs/bootstrap/css/bootstrap.min.css">
+	<link href="{THEME}/css/zoom.css" rel="stylesheet">
+	<link href="{THEME}/css/font-awesome/css/font-awesome.css" rel="stylesheet">
+	<link href="{THEME}/css/font-awesome/css/font-awesome.css" rel="stylesheet">
+	<link href="{THEME}/css/jquery-ui.css" rel="stylesheet">
+
+
+	<link rel="stylesheet" href="{THEME}/css/engine.css">
+	<link rel="stylesheet" href="{THEME}/css/main.css">
+	<link href="{THEME}/feedback-form/css/style.css" rel="stylesheet">
+
+
 </head>
-<body>
-{AJAX}
-<div id="toolbar" class="wwide">
-	<div class="wrapper"><div class="dpad">
-		<span class="htmenu"><a href="#" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://dle-news.ru');">Сделать домашней</a><span>|</span><a href="#" rel="sidebar" onclick="window.external.AddFavorite(location.href,'dle-news.ru'); return false;">Добавить в избранное</a></span>
-		{login}
-	</div></div>
-	<div class="shadow">&nbsp;</div>
-</div>
-<div class="wrapper">
-	<div id="header" class="dpad">
-		<h1><a class="thide" href="/index.php" title="DataLife Engine - Softnews Media Group">DataLife Engine - Softnews Media Group</a></h1>
-		<form action="" name="searchform" method="post">
-			<input type="hidden" name="do" value="search" />
-			<input type="hidden" name="subaction" value="search" />
-			<ul class="searchbar reset">
-				<li class="lfield"><input id="story" name="story" value="Поиск..." onblur="if(this.value=='') this.value='Поиск...';" onfocus="if(this.value=='Поиск...') this.value='';" type="text" /></li>
-				<li class="lbtn"><input title="Найти" alt="Найти" type="image" src="{THEME}/images/spacer.gif" /></li>
-			</ul>
-		</form>
-		<div class="headlinks">
-			<ul class="reset">
-				<li><a href="/index.php">Главная</a></li>
-				[group=5]<li><a href="/index.php?do=register">Регистрация</a></li>[/group]
-				<li><a href="/index.php?do=feedback">Контакты</a></li>
-				<li><a href="/index.php?do=rules">Правила</a></li>
-			</ul>
+
+<body>{AJAX}
+
+<!--<div class="podlojka" style="width: 100%; height: 1150px; background-image: url(img/bgnn.png);-->
+<!--background-position: center; opacity: 0.2; position: absolute; "></div>-->
+
+{include file="header.tpl"}
+
+
+
+<section class="section_3">
+	<div class="container">
+		<div class="row">
+
+
+			<div class="col-md-6 col-md-offset-1 company">
+
+				{info}{content}
+				<!--<h2>О Компании</h2>
+
+				<p>
+					На правах официального дилерства ООО «Силовые агрегаты- группы ГАЗ», компания ООО «Балтспецсервис» предлагает к реализации и поставке ряд агрегативных запчастей и действующего оборудования в Москве. На практичных и выгодных условиях можно:
+				</p>
+				<ul>
+					<li>купить двигатель ЯМЗ, ТМЗ, ЯЗДА и УМЗ;</li>
+					<li>заказать ремкомплекты двигателя выше представленных марок;</li>
+					<li>приобрести запчасти для сельскохозяйственной и автотракторной техники — БЕЛАЗ, КРАЗ, УРАЛ, МАЗ, МТЗ, ХТЗ, Кировец;</li>
+					<li>а также, купить дизельные электростанции, мощность которых составляет от 30 до 315 кВт.</li>
+				</ul>
+
+				<p>Дополнительно компания занимается установкой электростанций в контейнер типа "Север". Он может быть оборудован шасси, системой пожаротушения, утепления и т.д.</p>
+
+				<p>Для того чтобы ознакомиться с расценками и номенклатурой рекомендуется подробно изучить раздел сайта под названием "Прайс". Но в любом случае, стоит акцентировать внимание на том, что ООО «Балтспецсервис» специализируется на реализации оригинальных запчастей к любым видам техники.</p>
+
+				<p>Клиентам компании предоставляется удобный сервис, включающий подробные консультации технического характера и доставку любым видом транспорта, в том числе с возможностью самовывоза со склада в Москве. </p>
+-->
+
+			</div>
+
+
+
+			<div class="col-md-4 bumaga">
+				<h2>Диллерские свидетельства</h2>
+				<div class="img-wrap">
+					<img src="{THEME}/img/sertifikat1.png" alt="Сертификат" data-action="zoom">
+					<img src="{THEME}/img/sertifikat2.png" alt="Сертификат2" data-action="zoom">
+					<img src="{THEME}/img/svidetelstwo.png" alt="Свидетельство" data-action="zoom">
+				</div>
+
+			</div>
+
+
+
+
 		</div>
 	</div>
-	<div class="himage"><div class="himage"><div class="himage dpad">
-		<h2>Многопользовательский новостной движок,<br />
-		предназначенный для организации собственных<br />
-		СМИ и блогов в интернете.</h2>
-	</div></div></div>
-	<div class="mbar" id="menubar"><div class="mbar"><div class="mbar dpad">
-		<div class="menubar">
-			{include file="topmenu.tpl"}
-		</div>
-	</div></div></div>
-	<div class="wtop wsh"><div class="wsh"><div class="wsh">&nbsp;</div></div></div>
-	<div class="shadlr"><div class="shadlr">
-		<div class="container">
-			<div class="vsep">
-				<div class="vsep">
-					<div id="midside" class="rcol">
-						{speedbar}
-						<div class="hbanner">
-							<div class="dpad" align="center">{banner_header}</div>
-							<div class="dbtm"><span class="thide">на правах рекламы</span></div>
-						</div> 
-						[sort]<div class="sortn dpad"><div class="sortn">{sort}</div></div>[/sort]
-						{info}
-						{content}
-					</div>
-					<div id="sidebar" class="lcol">
-						{include file="sidebar.tpl"}
-					</div>
-					<div class="clr"></div>
+</section>
+
+{include file="footer.tpl"}
+
+
+
+
+
+
+
+
+<section class="section_10">
+	<div class="container">
+		<div class="row">
+			<div id="popupform">
+				<div class="feedback_text">
+					<h2>У Вас есть вопросы?</h2>
+
+					<div class="comment">Укажите Ваш номер телефона и мы перезвоним Вам в самое ближайшее время.</div>
 				</div>
+				<form method="post" id="form-feedback">
+					<input type="text" placeholder="Ваше имя?" name="client_name" id="client_name" class="input_text"
+					       autofocus/>
+
+					<div class="phone_number">
+						<input type="text" placeholder="Ваш телефон?" name="client_phone" id="client_phone"
+						       class="input_text"/>
+					</div>
+					<input class="button" type="submit" value="Жду звонка"/><br/>
+
+					<div id="bthrow_error_name"></div>
+					<div id="bthrow_error_phone"></div>
+					<div class="throw_error"></div>
+				</form>
 			</div>
-			<div class="footbox">
-				<div class="rcol">
-					<div class="btags">
-						{tags}
-						<div class="shadow">&nbsp;</div>
-					</div>
-				</div>
-				<div class="lcol">
-					<p>Уважаемые вебмастера, Вы<br />
-					просматриваете тестовую страницу<br />
-					<b>DataLife Engine</b>.<br />
-					Текущая версия 10.6.</p>
-				</div>
-			</div>
+			<a href="#popupform" id="popupbutton"><img title="Телефон" id="phoneimg" src="{THEME}/feedback-form/img/phone-logo.png"/></a>
 		</div>
-	</div></div>
-	<div class="wbtm wsh"><div class="wsh"><div class="wsh">&nbsp;</div></div></div>
+	</div>
+
+</section>
+
+
+
+
+
+
+
+<div class="loader">
+	<div class="loader_inner"></div>
 </div>
-<div id="footmenu" class="wwide">
-	<div class="wrapper"><div class="dpad">
-		<ul class="reset">
-			<li><a href="/index.php">Главная страница</a></li>
-			[group=5]<li><a href="/index.php?do=register">Регистрация</a></li>[/group]
-			[not-group=5]<li><a href="/addnews.html">Добавить новость</a></li>[/not-group]
-			<li><a href="/newposts/">Новое на сайте</a></li>
-			<li><a href="/statistics.html">Статистика</a></li>
-			<li><a href="http://dle-news.ru">Поддержка скрипта</a></li>
-		</ul>
-	</div></div>
-	<div class="shadow">&nbsp;</div>
-</div>
-<div id="footer" class="wwide">
-	<div class="wrapper"><div class="dpad">
-		<span class="copyright">
-			Copyright &copy; 2004-2015 <a href="http://dle-news.ru">SoftNews Media Group</a> All Rights Reserved.<br />
-			Powered by DataLife Engine &copy; 2015
-		</span>
-		<div class="counts">
-			<ul class="reset">
-				<li><img src="{THEME}/images/count.png" alt="count 88x31px" /></li>
-				<li><img src="{THEME}/images/count.png" alt="count 88x31px" /></li>
-				<li><img src="{THEME}/images/count.png" alt="count 88x31px" /></li>
-			</ul>
-		</div>
-		<div class="clr"></div>
-	</div></div>
-</div>
+
+<!--[if lt IE 9]>
+<script src="{THEME}/libs/html5shiv/es5-shim.min.js"></script>
+<script src="{THEME}/libs/html5shiv/html5shiv.min.js"></script>
+<script src="{THEME}/libs/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="{THEME}/libs/respond/respond.min.js"></script>
+<![endif]-->
+
+
+<script src="{THEME}/libs/modernizr/modernizr.js"></script>
+<script src="{THEME}/libs/jquery/jquery-1.11.2.min.js"></script>
+<script src="{THEME}/libs/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="{THEME}/feedback-form/js/jquery.mask.min.js"></script>
+<script type="text/javascript" src="{THEME}/feedback-form/js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="{THEME}/feedback-form/js/script.js"></script>
+<script src="{THEME}/js/zoom.js"></script>
+<script src="{THEME}/libs/waypoints/waypoints.min.js"></script>
+<script src="{THEME}/libs/animate/animate-css.js"></script>
+<script src="{THEME}/libs/plugins-scroll/plugins-scroll.js"></script>
+
+
+<script src="{THEME}/js/jquery-ui.js"></script>
+
+
+
+
+<script src="{THEME}/js/common.js"></script>
+
 </body>
-</html>
+</html>v

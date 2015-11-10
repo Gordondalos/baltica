@@ -1,4 +1,9 @@
 {poll}
+
+<h2>{title}</h2>
+{full-story}
+
+<!--
 <div class="base fullstory">
 	<div class="dpad">
 		<h3 class="btl"><span id="news-title">{title}</span></h3>
@@ -64,6 +69,8 @@
 	<a class="addcombtn" href="#" onclick="$('#addcform').toggle();return false;"><b>Оставить комментарий</b></a>
 	<div class="clr"></div>
 </div>
+
+-->
 {addcomments}
 {comments}
 {navigation}

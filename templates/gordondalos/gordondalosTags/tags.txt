@@ -1,0 +1,11 @@
+{headers} вывод заголовков
+{THEME} вывод пути до темы
+{AJAX} грузить что то аяксом
+{login} выводить авторизацию пользователя
+{include file="topmenu.tpl"} // так инклудяся файлы
+{speedbar}
+{info}
+{content}
+{include file="sidebar.tpl"}
+{tags}
+{vote} вывод опросов
