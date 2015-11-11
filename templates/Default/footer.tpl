@@ -1,5 +1,5 @@
 <section class="section_4 ">
-	<footer>
+	<footer style="height: 150px">
 		<div class="container-fluid">
 
 			<div class="container">
@@ -16,12 +16,15 @@
 							<a href="malto:infobss1@mail.ru" title="Send Mail"> E-mail: infobss1@mail.ru</a></p>
 
 						<div class="line"></div>
+						<br>
+						{login}
 					</div>
 
 					<div class="col-md-3 inform">
 						<a href="http:\\brand-maker.ru">
 							<img src="{THEME}/img/logoBM.png" alt="компания Brand-Maker">
 						</a>
+
 						<p>
 
 							Cоздание сайта - компания Brand-Maker www.brand-maker.ru
@@ -30,13 +33,24 @@
 					<div class="col-md-1 informer">информер</div>
 
 				</div>
+
 			</div>
+			<div class="container">
+				<div class="row black">
+					<div class="col-md-6 col-md-offset-1 footer-info">
 
+
+
+
+					</div>
+
+				</div>
+
+
+			</div>
 		</div>
+
 	</footer>
-
-	{login}
-
 
 
 	<div id="dialog" title="Задать вопрос">
