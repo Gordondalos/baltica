@@ -10,8 +10,11 @@
 
 <head>
 
-	{headers}
 
+	<meta charset="utf-8">
+
+	<title>ООО «Балтспецсервис»</title>
+	<meta name="description" content="">
 	<link rel="shortcut icon" href="{THEME}/img/favicon/favicon.ico" type="image/x-icon">
 	<link rel="apple-touch-icon" href="{THEME}/img/favicon/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="{THEME}/img/favicon/apple-touch-icon-72x72.png">
@@ -27,7 +30,7 @@
 	<link href="{THEME}/css/jquery-ui.css" rel="stylesheet">
 
 
-	<link rel="stylesheet" href="{THEME}/css/engine.css">
+	<!--<link rel="stylesheet" href="{THEME}/css/engine.css">-->
 	<link rel="stylesheet" href="{THEME}/css/main.css">
 	<link href="{THEME}/feedback-form/css/style.css" rel="stylesheet">
 
@@ -48,7 +51,7 @@
 	<div class="container">
 		<div class="row">
 
-			
+
 
 			<div class="col-md-6 col-md-offset-1 company">
 
@@ -56,9 +59,9 @@
 
 			</div>
 
+			{include file="right_side_bar.tpl"}
 
-
-			<div class="col-md-4 bumaga">
+			<!--<div class="col-md-4 bumaga">
 				<h2>Диллерские свидетельства</h2>
 				<div class="img-wrap">
 					<img src="{THEME}/img/sertifikat1.png" alt="Сертификат" data-action="zoom">
@@ -66,7 +69,7 @@
 					<img src="{THEME}/img/svidetelstwo.png" alt="Свидетельство" data-action="zoom">
 				</div>
 
-			</div>
+			</div>-->
 
 
 

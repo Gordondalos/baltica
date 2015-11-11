@@ -21,7 +21,7 @@
 					<ul>
 						<li><a href='o-kompanii.html'>О Компании </a></li>
 						<li><a href='katalog-produkcii.html'>Каталог продукции </a></li>
-						<li><a href='/'>Полезная информация</a></li>
+						<li><a href='/baltica_dle/'>Полезная информация</a></li>
 						<li><a href='vakansii.html'>Вакансии</a></li>
 						<li><a href='kontakty.html'>Контакты</a></li>
 					</ul>

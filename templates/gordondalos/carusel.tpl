@@ -1,0 +1,131 @@
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<!-- Indicators -->
+	<ol class="carousel-indicators">
+		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="1"></li>
+		<li data-target="#myCarousel" data-slide-to="2"></li>
+		<li data-target="#myCarousel" data-slide-to="3"></li>
+		<li data-target="#myCarousel" data-slide-to="4"></li>
+		<li data-target="#myCarousel" data-slide-to="5"></li>
+		<li data-target="#myCarousel" data-slide-to="6"></li>
+		<li data-target="#myCarousel" data-slide-to="7"></li>
+		<li data-target="#myCarousel" data-slide-to="8"></li>
+	</ol>
+	<div class="carousel-inner" role="listbox">
+		<div class="item active">
+			<img class="first-slide" src="{THEME}/img/slide1.png" alt="First slide">
+			<div class="container">
+				<div class="carousel-caption">
+					<div class="text-wrap">
+						<h3>Топливная <br>аппаратура</h3>
+						<a href="#">Скачать прайс лист</a>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<img class="second-slide" src="{THEME}/img/slide2.png"  alt="Second slide">
+			<div class="container">
+				<div class="carousel-caption">
+					<div class="text-wrap">
+						<h3>Автономный <br> источник <br> питания</h3>
+						<a href="#">Скачать прайс лист</a>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<img class="third-slide" src="{THEME}/img/slide3.png"  alt="Third slide">
+			<div class="container">
+				<div class="carousel-caption">
+					<div class="text-wrap">
+						<h3>Запчасти <br> к технике<br>  УРАЛ</h3>
+						<a href="#">Скачать прайс лист</a>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<img class="third-slide" src="{THEME}/img/slide4.png"  alt="Third slide">
+			<div class="container">
+				<div class="carousel-caption">
+					<div class="text-wrap">
+						<h3>Электро-<br>оборудование</h3>
+						<a href="#">Скачать прайс лист</a>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<img class="third-slide" src="{THEME}/img/slide5.png"  alt="Third slide">
+			<div class="container">
+				<div class="carousel-caption">
+					<div class="text-wrap">
+						<h3>Ремонтные <br> комплекты</h3>
+						<a href="#">Скачать прайс лист</a>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<img class="third-slide" src="{THEME}/img/slide6.png"  alt="Third slide">
+			<div class="container">
+				<div class="carousel-caption">
+					<div class="text-wrap">
+						<h3>Запчасти <br> к технике<br> МАЗ</h3>
+						<a href="#">Скачать прайс лист</a>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<img class="third-slide" src="{THEME}/img/slide7.png"  alt="Third slide">
+			<div class="container">
+				<div class="carousel-caption">
+					<div class="text-wrap">
+						<h3>Запчасти <br> к технике<br> БЕЛАЗ</h3>
+						<a href="#">Скачать прайс лист</a>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<img class="third-slide" src="{THEME}/img/slide8.png"  alt="Third slide">
+			<div class="container">
+				<div class="carousel-caption">
+					<div class="text-wrap">
+						<h3>Двигатели</h3>
+						<a href="#">Скачать прайс лист</a>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+
+		<span class="sr-only">Previous</span>
+	</a>
+	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+
+		<span class="sr-only">Next</span>
+	</a>
+</div>
