@@ -1,5 +1,5 @@
 <section class="section_4 ">
-	<footer style="height: 150px">
+	<footer style="height: auto">
 		<div class="container-fluid">
 
 			<div class="container">

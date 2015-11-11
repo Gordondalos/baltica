@@ -72,11 +72,6 @@
 
 
 
-
-
-
-
-
 <section class="section_10">
 	<div class="container">
 		<div class="row">
@@ -106,9 +101,6 @@
 	</div>
 
 </section>
-
-
-
 
 
 
