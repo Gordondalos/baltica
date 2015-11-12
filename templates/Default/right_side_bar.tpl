@@ -50,10 +50,13 @@
 [/category]
 
 [aviable=main]
+
 [banner_info]
 {banner_info}
 [/banner_info]
 
 [/aviable]
+
+
 
 

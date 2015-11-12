@@ -54,7 +54,7 @@
 
 
 			<div class="col-md-6 col-md-offset-1 company">
-
+				<br>	{speedbar}<br>
 				{info}{content}
 
 			</div>
@@ -62,6 +62,8 @@
 
 
 				{include file="right_side_bar.tpl"}
+
+
 
 
 		</div>
